@@ -1,0 +1,73 @@
+/* Geral */
+html, body, header, main, footer, article, div, span, p, a, figure, img, small {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.container{}
+
+.linha{}
+
+.coluna{}
+
+/* Body */
+body{
+
+}
+/* Header */
+header .container{}
+header .linha{}
+header.linha .coluna{}
+header.linha .coluna figure{}
+header.linha .coluna figure img{}
+header.linha .coluna h1{}
+
+/* MAIN */
+main{}
+main.container{}
+main article header{}
+main article header .linha{}
+main article header .linha .coluna{}
+main article header .linha .coluna span{}
+main article header .linha .coluna-country{}
+main article header .linha .coluna-country span{}
+main article header .linha .coluna-medalha{}
+main article header .linha .coluna-medalha span{}
+main article header .linha .coluna-total{}
+main article header .linha .coluna-total span{}
+main article section {}
+main article section .linha{}
+main article section .linha .coluna{}
+main article section .linha .coluna span{}
+main article section .linha .coluna-rank{}
+main article section .linha .coluna-rank span{}
+main article section .linha .country{}
+main article section .linha .country img{}
+main article section .linha .country span{}
+main article section .linha .medal_gold{}
+main article section .linha .medal_gold span{}
+main article section .linha .medal_silver{}
+main article section .linha .medal_silver span{}
+main article section .linha .medal_bronze{}
+main article section .linha .medal_bronze span{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,9 +8,19 @@ html, body, header, main, footer, article, div, span, p, a, figure, img, small {
     outline: none;
 }
 
-.container{}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 
-.linha{}
+}
+
+.linha{
+    display: flex;
+    flex-flow:row wrap;
+    align-items: center;
+
+}
 
 .coluna{}
 
@@ -19,35 +29,94 @@ body{
 
 }
 /* Header */
-header .container{}
-header .linha{}
-header.linha .coluna{}
-header.linha .coluna figure{}
-header.linha .coluna figure img{}
-header.linha .coluna h1{}
+body > header {
+    background-image: ;
+    background-repeat: no-repeat;
+    background-position: center -115px;
+    padding: 18px 0;
+}
+body > header .container{}
+body > header .linha{}
+body > header.linha .coluna{}
+body > header.linha .coluna figure{}
+body > header.linha .coluna figure img{
+    width: 100%;
+    max-width: 150px;
+}
+body > header.linha .coluna h1{
+    color: #fff;
+    margin-left: 30px;
+}
 
 /* MAIN */
-main{}
+main{
+    background-color: #f7f7f7;
+    height: 100vh;
+    padding-top: 100px;
+    
+}
 main.container{}
+main article {
+    box-shadow: 0 0 14px -px #000;;
+}
+main article .linha{}
+main article .linha .coluna{
+    padding: 0 15px;
+}
 main article header{}
 main article header .linha{}
-main article header .linha .coluna{}
-main article header .linha .coluna span{}
-main article header .linha .coluna-country{}
+main article header .linha .coluna{
+    }
+main article header .linha .coluna span{
+    font-size: 26px;
+    font-weight: bold;
+}
+main article header .linha .coluna-country{
+    flex-grow: 2;
+}
 main article header .linha .coluna-country span{}
 main article header .linha .coluna-medalha{}
-main article header .linha .coluna-medalha span{}
+main article header .linha .coluna-medalha:nth-child(3) span{
+    background-color: #f7cc48;
+}
+main article header .linha .coluna-medalha:nth-child(4) span{
+    background-color: #d8d6d6;
+}
+main article header .linha .coluna-medalha:nth-child(5) span{
+    background-color: #b7955e;
+}
+
+
+    
+main article header .linha .coluna-medalha span{
+    
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 100%;
+    border: 2px solid #fff
+}
 main article header .linha .coluna-total{}
 main article header .linha .coluna-total span{}
 main article section {}
-main article section .linha{}
+main article section .linha{
+    padding: 15px 0;
+}
 main article section .linha .coluna{}
-main article section .linha .coluna span{}
+main article section .linha .coluna span{
+    font-size: 22px;
+}
 main article section .linha .coluna-rank{}
 main article section .linha .coluna-rank span{}
-main article section .linha .country{}
+main article section .linha .country{
+    flex-grow: 2;
+}
 main article section .linha .country img{}
-main article section .linha .country span{}
+main article section .linha .country span{
+    vertical-align: top;
+}
 main article section .linha .medal_gold{}
 main article section .linha .medal_gold span{}
 main article section .linha .medal_silver{}
